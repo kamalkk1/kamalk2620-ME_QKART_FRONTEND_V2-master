@@ -1,0 +1,24 @@
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 1s !important;
+}
+
+.card:hover {
+    -webkit-transform: translateY(-1rem);
+            transform: translateY(-1rem);
+  }
+.card-actions {
+    margin-bottom: 1rem;
+}
+
+.card-button {
+    text-transform: none;
+    font-weight: 600;
+    width: 300px;
+    justify-content: center;
+    background-color: #00845c!important;
+    align-self: strech
+}
