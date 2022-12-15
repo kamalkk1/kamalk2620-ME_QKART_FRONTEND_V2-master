@@ -4,11 +4,11 @@ import Products from "./components/Products";
 import Checkout from "./components/Checkout";
 import Thanks from "./components/Thanks";
 
-// import ipConfig from "./ipConfig.json";
+import ipConfig from "./ipConfig.json";
 import { Route, Switch } from "react-router-dom";
 
 export const config = {
-  endpoint: `https://kcart-frontend.herokuapp.com/api/v1`,
+  endpoint: `https://qkart-backend-854b.onrender.com/api/v1`
 };
 
 function App() {

@@ -471,7 +471,7 @@ const Checkout = () => {
       await getAddresses(token);
     };
     onLoadHandler();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+
   }, []);
 
   return (

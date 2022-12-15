@@ -32,16 +32,10 @@
     "resetMocks": false
   },
   "scripts": {
-    "start": "PORT=8081 react-scripts start",
-    "build": "react-scripts build",
+    "start": "PORT=8081 react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provide build",
     "test": "react-scripts test --json --outputFile=testReport.json --watchAll=false",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
