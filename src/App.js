@@ -4,7 +4,7 @@ import Products from "./components/Products";
 import Checkout from "./components/Checkout";
 import Thanks from "./components/Thanks";
 
-import ipConfig from "./ipConfig.json";
+// import ipConfig from "./ipConfig.json";
 import { Route, Switch } from "react-router-dom";
 
 export const config = {
